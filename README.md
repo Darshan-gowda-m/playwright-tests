@@ -50,7 +50,8 @@ Screenshots are also captured along the way for debugging.
     Playwright
 
 
-   ### in main
+
+   ```bash
    if __name__ == "__main__":
     APP_URL = "https://hiring.idenhq.com/"
     USERNAME = "your_email@example.com"
@@ -66,7 +67,7 @@ Screenshots are also captured along the way for debugging.
         print("Sample product:")
         print(json.dumps(data[0], indent=2))
 
-
+    ```
    ### 📂 Output
 
     Product data → product_data.json
