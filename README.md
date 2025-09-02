@@ -27,7 +27,7 @@ It automates login, navigates through the **Challenge → Products** section, an
 
 Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/playwright-tests.git
+git clone https://github.com/Darshan-gowda-m/playwright-tests.git
 cd playwright-tests
 ```
 
