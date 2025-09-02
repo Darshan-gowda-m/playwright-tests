@@ -52,7 +52,7 @@ You can store login credentials in a config.json file.
 
 Run the extractor:
 ```bash
-python extractor.py
+python data_extraction.py
 ```
 
 ### 📂 Output
