@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Deluxe Home & Kitchen Series",
+    "id": "0",
+    "price": "$249.39",
+    "mass_kg": "8.59",
+    "score": "4.8"
+  },
+  {
+    "name": "Advanced Sports Kit",
+    "id": "1",
+    "price": "$601.91",
+    "mass_kg": "2.35",
+    "score": "3.3"
+  },
+  {
+    "name": "Deluxe Health Plus",
+    "id": "2",
+    "price": "$946.53",
+    "mass_kg": "9.95",
+    "score": "1.7"
+  },
+  {
+    "name": "Luxury Office Series",
+    "id": "3",
+    "price": "$258.33",
+    "mass_kg": "8.45",
+    "score": "4.7"
+  },
+  {
+    "name": "Advanced Garden Pro",
+    "id": "4",
+    "price": "$39.19",
+    "mass_kg": "15.21",
+    "score": "1.0"
+  },
+  {
+    "name": "Advanced Automotive Collection",
+    "id": "5",
+    "price": "$576.57",
+    "mass_kg": "3.56",
+    "score": "4.7"
+  },
+  {
+    "name": "Classic Health Lite",
+    "id": "6",
+    "price": "$176.60",
+    "mass_kg": "10.63",
+    "score": "4.6"
+  },
+  {
+    "name": "Advanced Books Max",
+    "id": "7",
+    "price": "$59.90",
+    "mass_kg": "15.05",
+    "score": "1.9"
+  },
+  {
+    "name": "Compact Home & Kitchen Package",
+    "id": "8",
+    "price": "$781.42",
+    "mass_kg": "13.91",
+    "score": "4.3"
+  },
+  {
+    "name": "Advanced Clothing Tool",
+    "id": "9",
+    "price": "$904.22",
+    "mass_kg": "12.3",
+    "score": "2.8"
+  },
+  {
+    "name": "Compact Office Solution",
+    "id": "10",
+    "price": "$634.29",
+    "mass_kg": "16.69",
+    "score": "1.3"
+  },
+  {
+    "name": "Portable Office Tool",
+    "id": "11",
+    "price": "$401.68",
+    "mass_kg": "12.65",
+    "score": "4.7"
+  },
+  {
+    "name": "Luxury Home & Kitchen Collection",
+    "id": "12",
+    "price": "$469.83",
+    "mass_kg": "6.46",
+    "score": "4.7"
+  },
+  {
+    "name": "Modern Toys System",
+    "id": "13",
+    "price": "$444.61",
+    "mass_kg": "0.55",
+    "score": "1.2"
+  },
+  {
+    "name": "Ultimate Beauty Bundle",
+    "id": "14",
+    "price": "$754.26",
+    "mass_kg": "18.66",
+    "score": "4.0"
+  },
+  {
+    "name": "Compact Automotive Package",
+    "id": "15",
+    "price": "$559.79",
+    "mass_kg": "12.93",
+    "score": "2.5"
+  },
+  {
+    "name": "Essential Home & Kitchen Collection",
+    "id": "16",
+    "price": "$500.16",
+    "mass_kg": "18.12",
+    "score": "4.6"
+  },
+  {
+    "name": "Classic Sports System",
+    "id": "17",
+    "price": "$129.31",
+    "mass_kg": "3.67",
+    "score": "2.1"
+  },
+  {
+    "name": "Innovative Office Tool",
+    "id": "18",
+    "price": "$504.91",
+    "mass_kg": "11.09",
+    "score": "4.7"
+  },
+  {
+    "name": "Professional Office Set",
+    "id": "19",
+    "price": "$174.57",
+    "mass_kg": "0.11",
+    "score": "3.1"
+  },
+  {
+    "name": "Modern Toys Package",
+    "id": "20",
+    "price": "$797.12",
+    "mass_kg": "14.81",
+    "score": "3.8"
+  },
+  {
+    "name": "Advanced Toys Series",
+    "id": "21",
+    "price": "$122.98",
+    "mass_kg": "11.73",
+    "score": "4.8"
+  },
+  {
+    "name": "Portable Beauty Lite",
+    "id": "22",
+    "price": "$950.73",
+    "mass_kg": "11.64",
+    "score": "1.6"
+  },
+  {
+    "name": "Compact Sports Bundle",
+    "id": "23",
+    "price": "$340.01",
+    "mass_kg": "12.01",
+    "score": "4.6"
+  },
+  {
+    "name": "Classic Health Solution",
+    "id": "24",
+    "price": "$354.99",
+    "mass_kg": "0.13",
+    "score": "1.7"
+  },
+  {
+    "name": "Luxury Clothing Collection",
+    "id": "25",
+    "price": "$885.85",
+    "mass_kg": "18.42",
+    "score": "4.4"
+  },
+  {
+    "name": "Smart Toys Bundle",
+    "id": "26",
+    "price": "$638.38",
+    "mass_kg": "8.11",
+    "score": "3.5"
+  },
+  {
+    "name": "Deluxe Books Max",
+    "id": "27",
+    "price": "$850.98",
+    "mass_kg": "7.67",
+    "score": "1.7"
+  },
+  {
+    "name": "Advanced Office Pro",
+    "id": "28",
+    "price": "$973.23",
+    "mass_kg": "12.17",
+    "score": "3.5"
+  },
+  {
+    "name": "Smart Automotive Bundle",
+    "id": "29",
+    "price": "$300.28",
+    "mass_kg": "15.81",
+    "score": "1.9"
+  },
+  {
+    "name": "Luxury Clothing Ultra",
+    "id": "30",
+    "price": "$825.08",
+    "mass_kg": "2.26",
+    "score": "4.5"
+  },
+  {
+    "name": "Portable Health Series",
+    "id": "31",
+    "price": "$525.68",
+    "mass_kg": "9.97",
+    "score": "4.0"
+  },
+  {
+    "name": "Ultimate Automotive Collection",
+    "id": "32",
+    "price": "$388.07",
+    "mass_kg": "6.62",
+    "score": "4.0"
+  },
+  {
+    "name": "Advanced Clothing Plus",
+    "id": "33",
+    "price": "$101.84",
+    "mass_kg": "7.13",
+    "score": "2.4"
+  },
+  {
+    "name": "Professional Sports Solution",
+    "id": "34",
+    "price": "$141.65",
+    "mass_kg": "19.02",
+    "score": "1.4"
+  },
+  {
+    "name": "Deluxe Home & Kitchen Series",
+    "id": "39",
+    "price": "$157.02",
+    "mass_kg": "7.59",
+    "score": "4.4"
+  }
+]
