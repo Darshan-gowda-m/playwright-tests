@@ -29,13 +29,13 @@ git clone https://github.com/YOUR_USERNAME/idenhq-extractor.git
 cd idenhq-extractor
 ```
 
-##Install dependencies:
+## Install dependencies:
 ```bash
 pip install playwright
 playwright install
 ```
 
-###⚙️ Configuration
+### ⚙️ Configuration
 
 You can store login credentials in a config.json file.
 
@@ -63,7 +63,7 @@ Extracted product data → product_data.json
 
 🎭 Playwright
 
-###📜 License
+### 📜 License
 
 This project is licensed under the MIT License – see the LICENSE
  file for details.
