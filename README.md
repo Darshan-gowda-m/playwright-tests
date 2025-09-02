@@ -16,7 +16,9 @@ It automates login, navigates through the **Challenge → Products** section, an
   - **Mass (kg)**
   - **Score**
 - ⏳ Infinite scroll support (keeps loading until no more products).
-- 🎯 Default extraction limit → **200 products** (customizable).
+- 🎯 Default extraction limit → **All products**  
+  (customizable: change the value of `max_products` in `extractor.run()`)
+
 - 💾 Exports results into **`product_data.json`**.
   
 ---
