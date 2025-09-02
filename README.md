@@ -27,8 +27,8 @@ It automates login, navigates through the **Challenge → Products** section, an
 
 Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/idenhq-extractor.git
-cd idenhq-extractor
+git clone https://github.com/YOUR_USERNAME/playwright-tests.git
+cd playwright-tests
 ```
 
 ## Install dependencies:
