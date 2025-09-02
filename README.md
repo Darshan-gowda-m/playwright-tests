@@ -1,14 +1,13 @@
 # 🛠️ IDENHQ Challenge Data Extractor
 
-This project is a **web data extraction tool** built with [Playwright](https://playwright.dev/python/) in Python.  
-It automates login, navigates through the **challenge → products section**, and extracts structured product data into JSON.  
-Screenshots are also captured along the way for debugging.
+A **web data extraction tool** built with [Playwright](https://playwright.dev/python/) in Python.  
+It automates login, navigates through the **Challenge → Products** section, and extracts structured product data into JSON.  
 
 ---
 
 ## ✨ Features
-- 🔑 Handles login automatically (saves session for reuse).
-- 📸 Takes screenshots for debugging (`debug/` folder).
+- 🔑 Automatic login (saves session for reuse).
+- ⚙️ Supports `config.json` for credentials.
 - 📂 Navigates menus → **Data Management → Inventory → View All Products**.
 - 📊 Extracts:
   - Product **ID**
@@ -16,91 +15,60 @@ Screenshots are also captured along the way for debugging.
   - **Price**
   - **Mass (kg)**
   - **Score**
-- ⏳ Infinite scroll support (keeps loading products until none left).
-- 🎯 Option to limit extraction to **N products**.
-- 💾 Exports results into **JSON** (`product_data.json`).
-
+- ⏳ Infinite scroll support (keeps loading until no more products).
+- 🎯 Default extraction limit → **42 products** (customizable).
+- 💾 Exports results into **`product_data.json`**.
+  
 ---
 
 ## 🚀 Installation
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/idenhq-extractor.git
-   cd idenhq-extractor
-   ```
+Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/idenhq-extractor.git
+cd idenhq-extractor
+```
 
-   ### Install dependencies:
-   ```bash
-   pip install playwright
-   playwright install
-   ```
+##Install dependencies:
+```bash
+pip install playwright
+playwright install
+```
 
-   ### ▶️ Usage
+###⚙️ Configuration
 
-   Run the extractor:
-   ```bash
-   python extractor.py
-   ```
+You can store login credentials in a config.json file.
 
-   ### 🏗️ Tech Stack
+```json
+{
+  "username": "your_email@example.com",
+  "password": "your_password"
+}
+```
 
-    Python 3.9+
+### ▶️ Usage
 
-    Playwright
+Run the extractor:
+```bash
+python extractor.py
+```
 
+### 📂 Output
 
+Extracted product data → product_data.json
 
-   ```bash
-   if __name__ == "__main__":
-    APP_URL = "https://hiring.idenhq.com/"
-    USERNAME = "your_email@example.com"
-    PASSWORD = "your_password"
+### 🏗️ Tech Stack
 
-    extractor = DataExtractor(APP_URL)
+🐍 Python 3.9+
 
-    # Extract all products (or limit with max_products=50)
-    data = extractor.run(USERNAME, PASSWORD, max_products=50)
+🎭 Playwright
 
-    print(f"Extracted {len(data)} products.")
-    if data:
-        print("Sample product:")
-        print(json.dumps(data[0], indent=2))
+###📜 License
 
-    ```
-   ### 📂 Output
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
 
-    Product data → product_data.json
-
-    Screenshots → debug/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ ```java
+MIT License  
+Copyright (c) 2025 Dharshan Gowda M
+```
